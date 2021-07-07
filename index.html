@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="./css/index.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <title>DoxyChain</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="navbar-logo">
+                        <img
+                            src="./img/doxychain-logo-1.svg"
+                            alt="doxychain logo"
+                        />
+                    </div>
+                    <div class="menu-toolbar">
+                        <p>MENU</p>
+                        <img src="./img/hamburger-icon.svg" alt="menu icon" id="open">
+                        <img src="./img/x-icon.svg" alt="x icon" id="close">
+                    </div>
+                    <ul class="navbar-list" id="list">
+                        <li class="list-item">
+                            <a href="#" class="item-link">Solution</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="item-link" onclick="move(team)">About us</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="item-link">Contact</a>
+                        </li>
+                        <li class="list-item">
+                            <a href="#" class="item-link" onclick="move(footer)">Demo</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-main">
+                    <div class="header-img"></div>
+                    <div class="header-text">
+                        <h1>
+                            DoxyChain.<br />
+                            We change business reality.
+                        </h1>
+                        <p>
+                            DoxyChain is a holistic system for managing your
+                            documents in a new, paperless way. Fast, easy and
+                            safe.
+                        </p>
+                        <div class="buttons">
+                            <button class="on">Find out more</button>
+                            <button class="off">Request Demo</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-blur">
+                    <h2>Our mission is to digitize Europe.</h2>
+                    <p>Create. Sign. Take control over documents.</p>
+                </div>
+            </div>
+            <img src="./img/hand.png" alt="hand with phone" class="hand" />
+            <img
+                src="./img/shape-border-1.svg"
+                alt="border 1"
+                class="border-thin"
+            />
+            <img
+                src="./img/shape-fill-1.svg"
+                alt="border 2"
+                class="border-thick"
+            />
+        </header>
+        <section class="main">
+            <div class="container">
+                <div class="scroll">
+                    <img src="./img/arrow-down.svg" alt="arrow down" />
+                </div>
+                <article class="instruction">
+                    <h1>How it works</h1>
+                    <h3>Use the time you saved for business development!</h3>
+                    <div class="steps">
+                        <div class="step">
+                            <section class="step-header">
+                                <img
+                                    src="./img/create-icon.svg"
+                                    alt="create icon"
+                                />
+                                <h2>1. Create</h2>
+                                <p><i>less paper, more eco-thinking</i></p>
+                            </section>
+                            <section class="step-des">
+                                <p>
+                                    DoxyChain is a holistic system for managing
+                                    your
+                                </p>
+                                <p>documents in a new, paperless way.</p>
+                                <p>Fast, easy and safe.</p>
+                            </section>
+                        </div>
+                        <div class="step">
+                            <section class="step-header">
+                                <img
+                                    src="./img/sign-icon.svg"
+                                    alt="sign icon"
+                                />
+                                <h2>2. Sign</h2>
+                                <p><i>feel secure</i></p>
+                            </section>
+                            <section class="step-des">
+                                <p>
+                                    With DoxyChain, you can sign documents using
+                                </p>
+                                <p>
+                                    existing electronic signatures, for both:
+                                    public as
+                                </p>
+                                <p>well as commercial purpose.</p>
+                            </section>
+                        </div>
+                        <div class="step">
+                            <section class="step-header">
+                                <img
+                                    src="./img/control-icon.svg"
+                                    alt="create icon"
+                                />
+                                <h2>3. Take Control</h2>
+                                <p><i>durable medium</i></p>
+                            </section>
+                            <section class="step-des">
+                                <p>
+                                    Thanks to applying a dedicated private blockchain 
+                                </p>
+                                <p>technology you are guaranteed about documents</p>
+                                <p>immutability and authenticity in time.</p>
+                                 
+                            </section>
+                        </div>
+                    </div>
+                </article>
+                <section class="advantage">
+                    <div class="advantage-text">
+                        <p>
+                            You can use DoxyChain to improve business process in
+                            your <br />company as well as your partner daily
+                            routine
+                        </p>
+                    </div>
+                    <img
+                        src="./img/shape-fill-1.svg"
+                        alt="border 2"
+                        class="border"
+                    />
+                </section>
+                <section class="options">
+                    <div class="options-list">
+                        <div class="option">
+                            <div class="option-dot">
+                                <div class="dot"></div>
+                            </div>
+                            <div class="option-des">
+                                <h2>Verify identity</h2>
+                                <p>
+                                    If required, each party undergoes the KYC
+                                    process before entering the platform
+                                </p>
+                            </div>
+                        </div>
+                        <div class="option">
+                            <div class="option-dot">
+                                <div class="dot"></div>
+                            </div>
+                            <div class="option-des">
+                                <h2>Create</h2>
+                                <p>
+                                    create your new documents inside our system
+                                </p>
+                            </div>
+                        </div>
+                        <div class="option">
+                            <div class="option-dot">
+                                <div class="dot"></div>
+                            </div>
+                            <div class="option-des">
+                                <h2>Send</h2>
+                                <p>
+                                    as a company, send your client contracts
+                                    digitally
+                                </p>
+                            </div>
+                        </div>
+                        <div class="option">
+                            <div class="option-dot">
+                                <div class="dot"></div>
+                            </div>
+                            <div class="option-des">
+                                <h2>Sign</h2>
+                                <p>
+                                    choose the appropriate e-signature form
+                                    required for your document
+                                </p>
+                            </div>
+                        </div>
+                        <div class="option">
+                            <div class="option-dot">
+                                <div class="dot"></div>
+                            </div>
+                            <div class="option-des">
+                                <h2>Track</h2>
+                                <p>
+                                    thanks to blockchain technology control the
+                                    integrity of your documents
+                                </p>
+                            </div>
+                        </div>
+                        <div class="option-text">
+                            <p>
+                                Forget about paper. Forget about frauds.<br />
+                                Manage your documents from anywhere in the world
+                            </p>
+                        </div>
+                    </div>
+                    <div class="options-img"></div>
+                </section>
+                <article class="info">
+                    <h1>
+                        Legality and security <br />
+                        of your documents
+                    </h1>
+                    <div class="info-items">
+                        <div class="item">
+                            <img src="./img/legal-icon.svg" alt="legal icon" />
+                            <div class="item-des">
+                                <h3>Legal documents</h3>
+                                <p>
+                                    The system, which is a durable medium,
+                                    ensures the security of intactness,
+                                    invariability of documents. The electronic
+                                    form of certain documents is legally
+                                    equivalent to that of paper.
+                                </p>
+                                <p>
+                                    Once document has been created will never
+                                    disappear, will not be changed, lost, or
+                                    misused.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img
+                                src="./img/safety-icon.svg"
+                                alt="Safety icon"
+                            />
+                            <div class="item-des">
+                                <h3>Safety</h3>
+                                <p>
+                                    To participate in DoxyChain system, the user
+                                    must pass the KYC (know your customer)
+                                    process. It is a due diligence procedure
+                                    which must be carried out by a client or
+                                    other legally defined entity to identify
+                                    their users obtaining relevant and accurate
+                                    information.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <img
+                        src="./img/shape-fill-1.svg"
+                        alt="border 2"
+                        class="border"
+                    />
+                    <img
+                        src="./img/shape-border-1.svg"
+                        alt="border 1"
+                        class="shape"
+                    />
+                </article>
+                <section class="variants">
+                    <h1>Wide variety - good choice</h1>
+                    <div class="variants-list">
+                        <div class="variant">
+                            <div class="variant-img">
+                                <img
+                                    src="./img/integrate-icon.svg"
+                                    alt="integrate icon"
+                                />
+                            </div>
+                            <div class="variant-text">
+                                <p>Ability to integrate with your company</p>
+                            </div>
+                        </div>
+                        <div class="variant">
+                            <div class="variant-img">
+                                <img
+                                    src="./img/signature-icon.svg"
+                                    alt="signature icon"
+                                />
+                            </div>
+                            <div class="variant-text">
+                                <p>Multiple signature options</p>
+                            </div>
+                        </div>
+                        <div class="variant">
+                            <div class="variant-img">
+                                <img
+                                    src="./img/identity-icon.svg"
+                                    alt="identity icon"
+                                />
+                            </div>
+                            <div class="variant-text">
+                                <p>Several identity providers</p>
+                            </div>
+                        </div>
+                        <div class="variant">
+                            <div class="variant-img">
+                                <img
+                                    src="./img/cryptograph-icon.svg"
+                                    alt="cryptograph icon"
+                                />
+                            </div>
+                            <div class="variant-text">
+                                <p>Newest cryptography standards</p>
+                            </div>
+                        </div>
+                        <div class="variant">
+                            <div class="variant-img">
+                                <img
+                                    src="./img/cryptograph-icon.svg"
+                                    alt="cryptograph icon"
+                                />
+                            </div>
+                            <div class="variant-text">
+                                <p>Highly reliable system: SLA 99.9%</p>
+                            </div>
+                        </div>
+                        <div class="variant">
+                            <div class="variant-img">
+                                <img
+                                    src="./img/devices-icon.svg"
+                                    alt="devices icon"
+                                />
+                            </div>
+                            <div class="variant-text">
+                                <p>Use all your devices</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="challenges">
+                    <h1>Challenge to outdated systems and habits</h1>
+                    <div class="challenges-list">
+                        <div class="challenge">
+                            <span><b>+</b></span>
+                            <p>Become much more effective</p>
+                        </div>
+                        <div class="challenge">
+                            <span><b>+</b></span>
+                            <p>Have more secure</p>
+                        </div>
+                        <div class="challenge">
+                            <span><b>+</b></span>
+                            <p>Have more time</p>
+                        </div>
+                        <div class="challenge">
+                            <span><b>+</b></span>
+                            <p>Realize the idea of the green office</p>
+                        </div>
+                    </div>
+                    <img
+                        src="./img/shape-fill-1.svg"
+                        alt="border 2"
+                        class="border"
+                    />
+                </section>
+                <section class="places">
+                    <div class="places-des">
+                        <p>For whom are DoxyChain solutions intended</p>
+                    </div>
+                    <div class="places-list">
+                        <div class="place">
+                            <div class="place-img">
+                                <img
+                                    src="./img/bank-icon.svg"
+                                    alt="bank icon"
+                                />
+                            </div>
+                            <p>Finance and banking</p>
+                        </div>
+                        <div class="place">
+                            <div class="place-img">
+                                <img
+                                    src="./img/insurance-icon.svg"
+                                    alt="insurance icon"
+                                />
+                            </div>
+                            <p>Insurance company</p>
+                        </div>
+                        <div class="place">
+                            <div class="place-img">
+                                <img
+                                    src="./img/energy-icon.svg"
+                                    alt="energy icon"
+                                />
+                            </div>
+                            <p>Energy companies</p>
+                        </div>
+                        <div class="place">
+                            <div class="place-img">
+                                <img
+                                    src="./img/telecom-icon.svg"
+                                    alt="telecom icon"
+                                />
+                            </div>
+                            <p>Telecoms</p>
+                        </div>
+                    </div>
+                </section>
+                <div class="line"></div>
+                <section class="team" id="team">
+                    <h1>Meet our team</h1>
+                    <div class="members">
+                        <div class="row">
+                            <div class="member">
+                                <div class="member-img">
+                                    <img
+                                        src="./img/gd-photo.png"
+                                        alt="Gariel Dymowski"
+                                    />
+                                </div>
+                                <h2>Gabriel Dymowski</h2>
+                                <p>CEO, Business Development</p>
+                                <img
+                                    src="./img/linkedin-logo.svg"
+                                    alt="linkedin logo"
+                                />
+                            </div>
+                            <div class="member">
+                                <div class="member-img">
+                                    <img
+                                        src="./img/pz-photo.png"
+                                        alt="Gariel Dymowski"
+                                    />
+                                </div>
+                                <h2>Piotr Żelazko</h2>
+                                <p>CTO, Blockchain Developer</p>
+                                <img
+                                    src="./img/linkedin-logo.svg"
+                                    alt="linkedin logo"
+                                />
+                            </div>
+                            <div class="member">
+                                <div class="member-img">
+                                    <img
+                                        src="./img/db-photo.png"
+                                        alt="Gariel Dymowski"
+                                    />
+                                </div>
+                                <h2>Marcin Lorenc</h2>
+                                <p>CFO, Lawyer</p>
+                                <img
+                                    src="./img/linkedin-logo.svg"
+                                    alt="linkedin logo"
+                                />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="member">
+                                <div class="member-img">
+                                    <img
+                                        src="./img/ml-photo.png"
+                                        alt="Gariel Dymowski"
+                                    />
+                                </div>
+                                <h2>Daniel Bigos</h2>
+                                <p>CIO, Blockchain Developer</p>
+                                <img
+                                    src="./img/linkedin-logo.svg"
+                                    alt="linkedin logo"
+                                />
+                            </div>
+    
+                            <div class="member">
+                                <div class="member-img">
+                                    <img
+                                        src="./img/rs-photo.png"
+                                        alt="Gariel Dymowski"
+                                    />
+                                </div>
+                                <h2>Rafael Schultz</h2>
+                                <p>CO-Founder</p>
+                                <img
+                                    src="./img/linkedin-logo.svg"
+                                    alt="linkedin logo"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <footer class="footer" id="footer">
+            <div class="container">
+                <section class="footer-main">
+                    <h1>
+                        If you want more about Doxychain system <br />
+                        contact us here:
+                    </h1>
+                    <div class="mail"><p>contact@doxychain.com</p></div>
+                    <span>or</span>
+                    <div class="demo">
+                        <p>Ready to get started?</p>
+                        <button class="on">Request Demo</button>
+                    </div>
+                    <img
+                        src="./img/shape-fill-1.svg"
+                        alt="border 2"
+                        class="border"
+                    />
+                </section>
+                <div class="copy">
+                    <img
+                        src="./img/doxychain-logo-2.svg"
+                        alt="DoxyChain logo"
+                    />
+                    <p>All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <script src="./js/menu.js"></script>
+        <script src="./js/menu-slider.js"></script>
+    </body>
+</html>
